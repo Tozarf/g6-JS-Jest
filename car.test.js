@@ -52,7 +52,7 @@ class Car {
     let newPrice = this.price;
 
     for (let diff = currentYear - this.year; diff > 0; diff--) {
-      newPrice -= newPrice * 0.2;
+      newPrice -= newPrice * 0.15;
     }
     return newPrice;
   }
